@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>List &#153;</title>
+</head>
+
+<body>
+  <style>
+    ol { counter-reset: count1; }
+    ol li:after {
+      counter-increment: count1; 
+      content: counter(count1);
+    }
+    ol ol { counter-reset: count2; }
+    ol ol li:after {
+      counter-increment: count2; 
+      content: counter(count1) "." counter(count2);
+    }
+    ol ol ul{ counter-reset: count3; } 
+    ol ol ul li:after {
+      counter-increment: count3; 
+      content: counter(count1) "." counter(count2) "." counter(count3); 
+    }
+    ol ol ul ul{ counter-reset: count4; } 
+    ol ol ul ul li:after {
+      counter-increment: count4; 
+      content: counter(count1) "." counter(count2) "." counter(count3) "." counter(count4); 
+    }
+    ol ul{ counter-reset: count5 1; } 
+    ol ul li:after {
+      counter-increment: count5 0;
+      content: counter(count1) "." counter(count5); 
+    }
+</style>    
+
+<h3>Preceding Text</h3>
+<ol type="I">
+  <li>List Item </li>
+    <ol type="a">
+      <li>Nested Item </li>
+      <li>Nested Item </li>
+    </ol>
+  <li>List Item </li>
+    <ol>
+      <li>Nested Item </li>
+      <li>Nested Item </li>
+        <ul style="list-style-type:circle;">
+          <li>Nested Item </li>
+          <li>Nested Item </li>
+            <ul style="list-style-type:square;">
+              <li>Nested Item </li>
+              <li>Nested Item </li>
+            </ul>
+          <li>Nested Item </li>
+        </ul>
+      <li>Nested Item </li>
+    </ol>
+  <li>List Item </li>
+    <ul style="list-style-type:disc;">
+      <li>Nested Item </li>
+      <li>Nested Item </li>
+      <li>Nested Item </li>
+     </ul>
+</ol>
+</body>
+</html>
