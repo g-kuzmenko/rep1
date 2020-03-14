@@ -1,0 +1,26 @@
+
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: hotpink;
+}
+a:active{
+    color: paleturquoise;
+}
+h2:before{
+    content: "/";
+    color: red;
+}
+h2:after{
+    content: "/";
+    color: red;
+}
+q:lang(no) {
+    quotes: "!" "!";
+    color: red;
+  }
+  h3:first-line{
+      text-transform: lowercase;
+      color: red;
+  }

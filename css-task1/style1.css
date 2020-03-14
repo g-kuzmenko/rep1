@@ -1,0 +1,47 @@
+body{
+    background-color: gray;
+}
+td{
+    font-style: italic;
+    color: white;
+    vertical-align: top;
+    padding-top: 15px;
+    width: 15px;
+}
+div{
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+.yellow{
+    color: lightyellow;
+    font-style: normal;
+}
+.red{
+    color: red;
+    font-weight: bold;
+    font-style: normal;
+}
+.grey{
+    color: rgba(211, 211, 211, 0.815);
+    font-style: normal;
+}
+.orange{
+    color: orange;
+    font-weight: bold;
+    font-style: normal;
+}
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:rgba(211, 211, 211, 0.815);
+    font-style: normal;
+}
+table{
+    width: 35%;
+}
+div, span{
+    display: inline-block;
+}
