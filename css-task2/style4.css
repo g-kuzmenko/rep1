@@ -1,0 +1,137 @@
+.calc{
+    width: 35%;
+    height: 50%;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 0px 5px 5px 5px;
+    background: -webkit-linear-gradient(#dae3ff,#d5def8);
+}
+.calcbody{
+    border-top: lightgray;
+    background-color: rgb(214, 232, 255);
+    border: 1px solid gray;
+}
+.menu{
+    border-bottom: 1px solid lightgray;
+    background: -webkit-linear-gradient(#ffffff,#d6e8f3);
+    margin-bottom: 3px;
+}
+.menubutton{
+    border: none;
+    background: none;
+}
+.result{
+    border: 1px solid gray;
+    background: -webkit-linear-gradient(#ffffff,#d6e8f3);
+    text-align: right;
+    height: 25px;
+    padding-top: 20px;
+    padding-right: 5px;
+    font-size: 20px;
+    margin: 10px 10px 5px 10px;
+}
+.divt1{
+    border: 1px solid gray;
+    margin: 10px 10px 5px 10px;
+}
+.t1{
+    padding-left: 15px;
+    width: 100%;
+    font-size: 11px;
+    color: darkblue;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.t1gray{
+    color: gray;
+}
+.t1graylast{
+    color: gray;
+    padding-left: 15px;
+}
+.t1graylastnull{
+    color: gray;
+    padding-left: 20px;
+}
+.t2{
+    width: 99%;
+    color: darkblue;
+    font-size: 12px;
+    margin: 5px 10px 10px 8px;
+}
+.firstcolumn{
+    border: 1px solid gray;
+
+}
+.inputbutton{
+    color: darkblue;
+    width: 32px;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    text-align: center;
+    background: -webkit-linear-gradient(#ffffff,#f2faff);
+}
+input.inputbutton0{
+    color: darkblue;
+    width: 90%;
+    display: block;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    text-align: center;
+}
+input.inputbuttoneq{
+    color: darkblue;
+    width: 80%;
+    display: block;
+    height: 54px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    text-align: center;
+    background: -webkit-linear-gradient(#ffffff,#d2efff);
+}
+.imgcalc{
+    width: 10px;
+    height: 15px;
+}
+.imgsystem{
+    width: 90px;
+    height: 17px;
+    border-top: 1px solid darkgrey;
+    vertical-align: top;
+    margin-left: 280px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.inputbuttontrans{
+    color: darkblue;
+    width: 32px;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    text-align: center;
+    background: none;
+}
+.inputbuttonshadow{
+    color: darkblue;
+    width: 32px;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    text-align: center;
+    background: none;
+    box-shadow: white inset 1px 1px 1px 1px;
+}
+.inputbuttongrad{
+    color: darkblue;
+    width: 32px;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    text-align: center;
+    background: -webkit-linear-gradient(#ffffff,#d2efff);
+}
+input:hover, button:hover{
+    background: -webkit-linear-gradient(yellow,orange);
+}
