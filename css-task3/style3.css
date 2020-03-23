@@ -1,0 +1,39 @@
+body{
+    background-color: gray;
+}
+.log{
+    height: 40px;
+    width: 40px;
+    float: left;
+    padding-left: 400px;
+    padding-right: 10px;
+}
+div{
+padding-top: 10px;
+}
+.headText{
+    color: white;
+}
+input{
+    margin-left: 10px;
+}
+.go{
+    background-color: lightgray;
+    height: 20px;
+    width: 45px;
+}
+.shadow{
+    padding-top: 20px;
+    padding-left: 250px;
+    
+}
+section{
+    width: 65%;
+    padding-left: 250px;
+}
+h1{
+    color: orange;
+}
+p{
+    color: bisque;
+}

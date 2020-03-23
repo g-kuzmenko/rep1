@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style5.css">
+  <title>Task5</title>
+  <script>
+    function changeText() {
+        val = document.getElementById("minPr").value;
+        txt = document.getElementById("minPrLbl");
+        txt.innerHTML = val;
+        valMax = document.getElementById("maxPr").value;
+        txtMax = document.getElementById("maxPrLbl");
+        txtMax.innerHTML = valMax;
+        valRam = document.getElementById("minR").value;
+        txtRam = document.getElementById("minRLbl");
+        txtRam.innerHTML = valRam;
+        valRamMax = document.getElementById("maxR").value;
+        txtRamMax = document.getElementById("maxRLbl");
+        txtRamMax.innerHTML = valRamMax;
+    }
+   </script>
+
+  </head>
+  <body>
+      <div class="left">
+          <div class="lleft">
+            <fieldset>
+                <legend>Apple MacBook Air</legend>
+                    <div class="figure">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/I/61TzuPm9SRL.jpg">
+                        <p>1300 USD</p>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li>64 GB SSD</li>
+                            <li>2 GB DDR</li>
+                            <li>Intel Core i5</li>
+                        </ul>
+                    </div>         
+            </fieldset>
+            <fieldset>
+                <legend>Apple MacBook Air</legend>
+                <div class="figure">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/I/61TzuPm9SRL.jpg">
+                    <p>1300 USD</p>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>64 GB SSD</li>
+                        <li>2 GB DDR</li>
+                        <li>Intel Core i5</li>
+                    </ul>
+                </div>  
+            </fieldset>
+            <fieldset>
+                <legend>Apple MacBook Air</legend>
+                <div class="figure">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/I/61TzuPm9SRL.jpg">
+                    <p>1300 USD</p>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>64 GB SSD</li>
+                        <li>2 GB DDR</li>
+                        <li>Intel Core i5</li>
+                    </ul>
+                </div>  
+            </fieldset>
+        </div>
+        <div class="rright">
+            <fieldset>
+                <legend>Apple MacBook Air</legend>
+                <div class="figure">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/I/61TzuPm9SRL.jpg">
+                    <p>1300 USD</p>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>64 GB SSD</li>
+                        <li>2 GB DDR</li>
+                        <li>Intel Core i5</li>
+                    </ul>
+                </div>  
+            </fieldset>
+            <fieldset>
+                <legend>Apple MacBook Air</legend>
+                <div class="figure">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/I/61TzuPm9SRL.jpg">
+                    <p>1300 USD</p>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>64 GB SSD</li>
+                        <li>2 GB DDR</li>
+                        <li>Intel Core i5</li>
+                    </ul>
+                </div>  
+            </fieldset>
+            <fieldset>
+                <legend>Apple MacBook Air</legend>
+                <div class="figure">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/I/61TzuPm9SRL.jpg">
+                    <p>1300 USD</p>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>64 GB SSD</li>
+                        <li>2 GB DDR</li>
+                        <li>Intel Core i5</li>
+                    </ul>
+                </div> 
+            </fieldset>
+        </div>
+        </div>
+        <div class="right">
+            <form>
+                <ul>
+                    <li>Min price: <span id="minPrLbl" >500</span> USD</li>
+                    <li><input type="range" id="minPr" min="0" max="1000" step="500" oninput="changeText()"></li>
+                    <li>Max price: <span id="maxPrLbl">1500</span> USD</li>
+                    <li><input type="range" id="maxPr" min="1000" max="2000" step="500" oninput="changeText()"></li>
+                    <li>Min RAM: <span id="minRLbl">4</span> GB</li>
+                    <li><input type="range" id="minR" min="0" max="8" step="4" oninput="changeText()"></li>
+                    <li>Max RAM: <span id="maxRLbl">16</span> GB</li>
+                    <li><input type="range" id="maxR" min="8" max="24" step="8" oninput="changeText()"></li>
+                </ul>
+            </form>
+        </div>
+  </body>
+  </html>

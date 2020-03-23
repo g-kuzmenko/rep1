@@ -1,0 +1,41 @@
+.left{
+    border: 1px solid black;
+    float: left;
+    padding: 15px;
+    height: 520px;
+}
+.right {
+    display: table-cell;
+    vertical-align: middle;
+    height: 520px;
+}
+.lleft, .rright{
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+}
+fieldset{
+    width: 200px;
+}
+legend{
+    text-align: center;
+}
+li{
+    margin-bottom: 13px;
+}
+img{
+    width: 100px; 
+    height: 100px;
+}
+.figure{
+    margin-right: 10px;
+    margin-bottom: 0px;
+    float: left;
+}
+p{
+    margin-top: 0px;
+}
+.list{
+    padding-top: 25px;
+}
