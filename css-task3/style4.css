@@ -1,0 +1,116 @@
+div.backgr{
+    background-color: rgb(252, 230, 201);
+    font-size: 14px;
+    padding: 5px;
+}
+aside.left>ul{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+div.backgr .left, main, .right{
+    display: inline-block;
+}
+aside.left{
+    width: 14%;
+}
+header{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+main{
+    width: 70%;
+    background-color: white;
+    border: 1px solid black;
+    vertical-align: top;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+aside.right{
+    width: 14%;
+    background-color: white;
+    vertical-align: top;
+    background: transparent;
+}
+.mainpic{
+    width: 120px;
+    height: 80px;
+    float: left;
+}
+div.header{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    padding-left: 5px;
+}
+a{
+    color: red;
+    text-decoration: underline;
+}
+p.bold{
+    font-weight: bold;
+}
+div.topic{
+    margin-bottom: 20px;
+}
+footer{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 5px 5px;
+    margin-bottom: 20px;
+}
+button.arrowsleft{
+    border: 1px solid black;
+    border-radius: 0px;
+    width: 90px;
+    text-align: left;
+}
+span.previous{
+    padding-left: 12px;
+}
+span.next{
+    padding-right: 22px;
+}
+button.arrowsright{
+    border: 1px solid black;
+    border-radius: 0px;
+    width: 90px;
+    text-align: right;
+}
+div.nav{
+    border: 1px solid black;
+    margin-bottom: 2px;
+    text-align: center;
+    background-color: white;
+}
+div.rightheader{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    padding-left: 5px;
+    text-align: center;
+    margin-bottom: 3px;
+}
+input.textinput{
+    border: 1px solid blue;
+}
+input.points{
+    border: 1px solid blue;
+    background-color: lightgrey;
+    border-radius: 2px;
+}
+input.stylesbutton{
+    margin-top: 3px;
+    border: 1px solid blue;
+    border-radius: 0px;
+    font-weight: bold;
+    font-size: 16px;
+    color: aqua;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+li.title{
+    color: red;
+    font-weight: bold;
+}

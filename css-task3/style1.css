@@ -1,0 +1,13 @@
+ul{
+    list-style-type: none;
+}
+.main:hover{
+    text-decoration: underline;
+}
+span{
+    display: none;
+    color: gray;
+}
+div:hover span{
+    display: block;
+}
